@@ -1,0 +1,38 @@
+.login form{
+    padding: 3rem 1rem;
+    max-width: 600px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .title {
+    display: block;
+}
+
+.login .title h1{
+    margin: 0 auto;
+    max-width: 7rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login form fieldset{
+    border: none;
+}
+
+.login form input[type="submit"]{
+    padding: .5rem 2rem;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.login form label{
+    width: 5rem;
+    display: inline-block;
+}
+.login form div{
+    margin: 1.5rem 0;
+}
+.login form fieldset input{
+    height: 30px;
+}

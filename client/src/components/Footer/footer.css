@@ -1,0 +1,45 @@
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 10rem;
+    height: 456px;
+}
+
+.footer-banner{
+    min-width: 375px;
+    height: 464px;
+    max-width: 488px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+footer h1{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer ul{
+    width: 250px;
+    margin-bottom: 2rem;
+}
+footer li{
+    text-transform: capitalize;
+}
+footer p{
+    text-align: center;
+    margin: 1rem 0;
+}
+footer .copyright{
+    margin-top: 2rem;
+}
